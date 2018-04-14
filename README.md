@@ -3,7 +3,7 @@
 go version
 ```
 
-## How to compile and use? 
+## How to compile and use with file build? 
 ``` 
 go build file.go 
 ./file.go
