@@ -15,7 +15,7 @@ func stripe() {
 
 func main() {
 	yerlin := Person { name: "Yerlin", lastname: "Matu", skill: "Software Developer", age: 20}
-	// also.
+	// also declare in this way.
 	john := Person {"John", "Doe", "Baker", 32 }
 	
 	fmt.Println(yerlin);
