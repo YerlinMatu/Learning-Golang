@@ -4,6 +4,7 @@ import "fmt";
 
 type Person struct {
 	name string;
+	age int;
 }
 
 type Developer struct {
@@ -17,7 +18,7 @@ func (this *Developer) changeLanguage(newLang string) {
 }
 
 func main() {
-	matu := Developer{Person{"Yerlin"}, "JavaScript", true, true, true};
+	matu := Developer{Person{"Yerlin", 20}, "JavaScript", true, true, true};
 	matu.changeLanguage("Golang");
 	fmt.Println(matu);
 }
