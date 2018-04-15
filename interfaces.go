@@ -36,9 +36,9 @@ func stripe() {
 }
 
 func auth(profile User) string {
-	if (profile.Autorization() == 4 ) {
+	if profile.Autorization() == 4  {
 		return profile.Name() + ", You have permits of administration.";
-	} else if (profile.Autorization() <=  2) {
+	} else if profile.Autorization() <=  2 {
 		return profile.Name() +", You have permits of editor.";
 	} else {
 		return "Without access to the system.";
